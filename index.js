@@ -10,7 +10,7 @@ const Bscore=prompt("Enter your Biology score:");
 console.log (Bscore)
 
 let total=Escore+Tscore+Cscore+Pscore+Pscore
-let avg=total/5
+let percent=total/5
 
 if (percent >= 90) {
     grade = "A";
