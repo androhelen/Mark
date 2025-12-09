@@ -1,16 +1,22 @@
-var Escore=prompt("Enter your English score:");
-console.log (Escore)
-var Tscore=prompt("Enter your Tamil score:");
-console.log (Tscore)
-var Cscore=prompt("Enter your Computer score:");
-console.log (Cscore)
-var Pscore=prompt("Enter your Physics score:");
-console.log (Pscore)
-var Bscore=prompt("Enter your Biology score:");
-console.log (Bscore)
+var Escore = Number(prompt("Enter your English score:"));
+console.log(Escore);
 
-var total=Escore+Tscore+Cscore+Pscore+Bscore
-var percent=total/5
+var Tscore = Number(prompt("Enter your Tamil score:"));
+console.log(Tscore);
+
+var Cscore = Number(prompt("Enter your Computer score:"));
+console.log(Cscore);
+
+var Pscore = Number(prompt("Enter your Physics score:"));
+console.log(Pscore);
+
+var Bscore = Number(prompt("Enter your Biology score:"));
+console.log(Bscore);
+
+var total = Escore + Tscore + Cscore + Pscore + Bscore;
+var percent = total / 5;
+
+var grade;
 
 if (percent >= 90) {
     grade = "A";
@@ -23,3 +29,7 @@ if (percent >= 90) {
 } else {
     grade = "F";
 }
+
+console.log("Total Marks: " + total);
+console.log("Percentage: " + percent);
+console.log("Grade: " + grade);
