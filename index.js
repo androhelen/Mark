@@ -1,15 +1,15 @@
-const Escore=prompt("Enter your English score:");
+var Escore=prompt("Enter your English score:");
 console.log (Escore)
-const Tscore=prompt("Enter your Tamil score:");
+var Tscore=prompt("Enter your Tamil score:");
 console.log (Tscore)
-const Cscore=prompt("Enter your Computer score:");
+var Cscore=prompt("Enter your Computer score:");
 console.log (Cscore)
-const Pscore=prompt("Enter your Physics score:");
+var Pscore=prompt("Enter your Physics score:");
 console.log (Pscore)
-const Bscore=prompt("Enter your Biology score:");
+var Bscore=prompt("Enter your Biology score:");
 console.log (Bscore)
 
-let total=Escore+Tscore+Cscore+Pscore+Pscore
+let total=Escore+Tscore+Cscore+Pscore+Bscore
 let percent=total/5
 
 if (percent >= 90) {
